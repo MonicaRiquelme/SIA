@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset='utf-8'>
+		<link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+		<div id='contenido'>
+			<header>
+				<hgroup>
+					<h1>Proyecto de Sia</h1>				
+				</hgroup>
+			</header>
+			<section>
+				<div id='textPr'>
+					<article>
+						<hgroup>
+                  	<h1>Bienvenido al proyecto Sia</h1>
+                  </hgroup>
+               </article>
+				</div>	
+			</section>
+			<section>
+				<div id='iniciarsecion'>
+					<form action="verificar.php" method="post" name="form">
+						<table>
+							<tr>
+								<td>Usuario:</td>
+								<td><input type="text" name="user" required/></td>	
+							</tr>
+							<tr>
+								<td>Password:</td>
+								<td><input type="password" name="pw" required/></td>	
+							</tr>
+							<tr>
+								<td></td>
+								<td><select name="lista">
+										<option value="admin">admin</option>							
+										<option value="usuario">user</option>			
+								</select><input type="submit" value="Aceptar" /></td>	
+							</tr>
+							<td></td>
+							<td><a href="recordartraseña.php"><font size= "1">recodar contraseña</font></a></td>
+						</table>
+   			</div>			
+			</section>
+		</div>
+		<footer>
+			<canvas id='mi_Canvas'>
+			 Tu pc no soporta html5
+			</canvas>		
+		</footer>
+	</body>
+	
+</html>
