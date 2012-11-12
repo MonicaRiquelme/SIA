@@ -1,0 +1,88 @@
+body
+{
+	background-color:#fff6f1;
+	font-family:Helvetica,Arial;
+}
+
+ul li
+{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#contenido
+{
+	width:960px;
+	margin:0 auto;
+	text-align:center; 
+}
+
+h1
+{
+	text-align: center;
+	color:#e44e2d; 
+}
+
+#iniciarsecion
+{
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	margin:0 auto; 
+	text-align: left;
+	color: #e44e2d; 
+	border-radius: 20px;
+	padding:20px;
+}
+#textPr
+{
+	width: 600px;
+	height: 300px;
+	background-color:#1d1d1d;
+	color: #fff; 
+	margin: 0 auto;
+	text-align: left;
+	border-radius:20px;
+	padding: 20px; 
+}
+#mi_Canvas
+{
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+}
+
+form
+{
+	position: absolute;
+	top: 146px;
+	left: 500px;
+}
+
+#todos
+{
+	position: absolute;
+	text-align: center;
+	left: 580px;
+   width: 200px;
+}
+a
+{
+	background-color: darkgray;
+	border : 0px solid #BBB;	
+	float: left;
+	color: #111;
+	height: 13px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+	border-radius:10px;  
+}
+
+section a.error
+{
+	background: #DD0000;
+}
