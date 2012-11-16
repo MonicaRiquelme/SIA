@@ -66,7 +66,7 @@
 		</div>
 		
 	<?php }else {
-		echo "no puedes ver esta pagina, registrate e inicia secion";
+		echo "No tienes permisos para ver esta página. Inténtalo iniciando sesión nuevamente.";
 		}?>
 		</body>	
 </html>
