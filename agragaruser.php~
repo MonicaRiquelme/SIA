@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset='utf-8'>
+		<link rel="stylesheet" href="estilos.css">
+		<script src='jquery.js'></script>
+		<script src='Principal.js'></script>
+	</head>
+	<body>
+	<?php
+    session_start();
+     if(isset($_SESSION['username'])){?>
+     	<div id='contenido'>
+			<header>
+				<hgroup>
+					<h1>Proyecto de Sia</h1>				
+				</hgroup>
+			</header>
+			</div>
+			<section>
+				<div id='textPr'>
+					<article>
+						<hgroup>
+                  	<h1>esto es una prueba</h1>
+                  </hgroup>
+                 <form action="insertar.php" method="post">
+                 	<table>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						</table>                     
+                 </form>
+                  <ul>
+                    <li><a href="agregaruser.php">agregar usuario</a></li>
+                    <li><a href="modificaruser.php">modificar usuario</a></li>
+						  <li><a href="eliminaruser.php">eliminar usuario</a></li>
+						  <li><a href="destruir.php">cerrar sesion</a></li>
+                  </ul>			
+                 </article>
+				</div>	
+			</section>
+		</div>
+		
+	<?php }else {
+		echo "no puedes ver esta pagina, registrate e inicia secion";
+		}?>
+		</body>	
+</html>
